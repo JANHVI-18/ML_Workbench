@@ -106,18 +106,24 @@ A comprehensive web application for training, analyzing, and deploying machine l
 git clone https://github.com/TarakKatoch/Decipher
 cd Decipher
 ```
+![Example Image](https://github.com/Anugrah2334/My-Application/blob/main/Screenshot1.png)
 
 2. Install dependencies:
 
 ```bash
 pip install -r requirements.txt
 ```
+![Example Image](https://github.com/Anugrah2334/My-Application/blob/main/Screenshot2.png)
+![Example Image](https://github.com/Anugrah2334/My-Application/blob/main/Screenshot3.png)
+
 
 3. Run the application:
 
 ```bash
 streamlit run app.py
 ```
+![Example Image](https://github.com/Anugrah2334/My-Application/blob/main/Screenshot4.png)
+
 
 ## 📝 Usage Guide
 
