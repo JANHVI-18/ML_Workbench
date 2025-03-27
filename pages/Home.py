@@ -1,7 +1,14 @@
 import streamlit as st
 
 def show():
-    st.title("Decipher")
+    # Set the page layout
+    st.set_page_config(page_title="Decipher", page_icon="📊", layout="wide")
+    
+    # Add a banner image
+    st.image("banner.png", use_column_width=True)
+    
+    st.title("MLWorkbench")
+    st.image("mlwork.png", use_column_width=True)
 
     st.markdown("""
     ## Welcome to ML Model Trainer & Analyzer
@@ -52,3 +59,4 @@ def show():
         <p>For support or questions, please contact us</p>
     </div>
     """, unsafe_allow_html=True)
+
